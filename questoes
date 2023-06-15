@@ -1,0 +1,108 @@
+import java.util.Scanner;
+
+public class QuizApplication {
+    public static void main(String[] args) {
+        // Exibindo a pergunta
+        System.out.println("1-Qual é o objetivo principal da educação para as relações étnico-raciais e cultura afro-brasileira, africana e indígena?");
+
+        // Exibindo as alternativas
+        System.out.println("a) Promover o isolamento cultural e étnico, destacando apenas as diferenças entre os grupos étnicos.");
+        System.out.println("b) Negar a diversidade étnico-racial existente no Brasil, enfatizando a assimilação de uma única cultura dominante.");
+        System.out.println("c) Valorizar e respeitar a diversidade étnico-racial, promovendo o reconhecimento e a valorização das contribuições históricas, culturais e sociais dos grupos afro-brasileiros, africanos e indígenas. ");
+        System.out.println("d) Reforçar estereótipos e preconceitos étnico-raciais, perpetuando desigualdades e discriminação. ");
+        System.out.println("e) Desconsiderar a influência da cultura afro-brasileira, africana e indígena na formação da identidade brasileira.");
+
+        // Obtendo a resposta do usuário
+        System.out.print("Digite a letra correspondente à sua resposta: ");
+        Scanner scanner = new Scanner(System.in);
+        String resposta = scanner.nextLine();
+
+        // Verificando a resposta do usuário
+        if (resposta.equalsIgnoreCase("c")) {
+            System.out.println("Resposta correta!");
+        } else {
+            System.out.println("Resposta incorreta!");
+
+        System.out.println("2- Qual é a importância de incluir a cultura afro-brasileira, africana e indígena no currículo escolar?");
+
+        // Exibindo as alternativas
+        System.out.println("a) Para destacar a superioridade de uma cultura em detrimento das outras.");
+        System.out.println("b) Para reforçar estereótipos e preconceitos em relação aos grupos étnicos minoritários.");
+        System.out.println("c) Para ampliar o conhecimento dos estudantes sobre a diversidade cultural presente na sociedade brasileira. ");
+        System.out.println("d) Para promover a segregação racial e étnica nas escolas");
+        System.out.println("e) Para ignorar a contribuição histórica e cultural desses grupos na formação da identidade brasileira.");
+
+        // Obtendo a resposta do usuário
+        System.out.print("Digite a letra correspondente à sua resposta: ");
+        Scanner scanner = new Scanner(System.in);
+        String resposta = scanner.nextLine();
+
+        // Verificando a resposta do usuário
+        if (resposta.equalsIgnoreCase("c")) {
+            System.out.println("Resposta correta!");
+        } else {
+            System.out.println("Resposta incorreta!");
+
+System.out.println("3- Qual é o principal objetivo da Lei nº 10.639/2003, que tornou obrigatório o ensino da história e cultura afro-brasileira e africana nas escolas?");
+
+        // Exibindo as alternativas
+        System.out.println("a) Enfatizar a supremacia de uma cultura em detrimento das demais. ");
+        System.out.println("b) Inserir conteúdos curriculares que desvalorizem a cultura afro-brasileira e africana. ");
+        System.out.println("c) Combater o preconceito racial e promover a igualdade étnico-racial na sociedade brasileira.");
+        System.out.println("d) Excluir a história e a cultura afro-brasileira e africana dos currículos escolares.");
+        System.out.println("e) Desconsiderar a contribuição dos povos indígenas para a formação da identidade brasileira.");
+
+        // Obtendo a resposta do usuário
+        System.out.print("Digite a letra correspondente à sua resposta: ");
+        Scanner scanner = new Scanner(System.in);
+        String resposta = scanner.nextLine();
+
+        // Verificando a resposta do usuário
+        if (resposta.equalsIgnoreCase("c")) {
+            System.out.println("Resposta correta!");
+        } else {
+            System.out.println("Resposta incorreta!");
+
+System.out.println("4- Qual é a importância da educação para as relações étnico-raciais e cultura afro-brasileira, africana e indígena na formação dos estudantes?");
+
+        // Exibindo as alternativas
+        System.out.println("a) Desenvolver o sentimento de superioridade racial em relação aos demais grupos étnicos. ");
+        System.out.println("b) Promover a segregação e o isolamento entre os diferentes grupos étnico-raciais.  ");
+        System.out.println("c) Desconsiderar a diversidade cultural e étnica presente na sociedade brasileira.  ");
+        System.out.println("d) Estimular o respeito à diversidade e a valorização das contribuições históricas, culturais e sociais dos grupos afro-brasileiros, africanos e indígenas. ");
+        System.out.println("e) Negar a existência de desigualdades sociais e raciais no Brasil");
+
+        // Obtendo a resposta do usuário
+        System.out.print("Digite a letra correspondente à sua resposta: ");
+        Scanner scanner = new Scanner(System.in);
+        String resposta = scanner.nextLine();
+
+        // Verificando a resposta do usuário
+        if (resposta.equalsIgnoreCase("d")) {
+            System.out.println("Resposta correta!");
+        } else {
+            System.out.println("Resposta incorreta!");
+
+System.out.println("5-Qual é o objetivo principal da inclusão da temática étnico-racial nas práticas pedagógicas?");
+
+        // Exibindo as alternativas
+        System.out.println("a) Reforçar estereótipos e preconceitos existentes na sociedade.");
+        System.out.println("b) Promover a assimilação cultural dos grupos étnicos minoritários.");
+        System.out.println("c) Valorizar a diversidade étnico-racial e combater o racismo e a discriminação.");
+        System.out.println("d) Criar segregação entre os diferentes grupos étnicos.");
+        System.out.println("e) Ignorar a contribuição histórica e cultural dos grupos afro-brasileiros, africanos e indígenas.");
+
+        // Obtendo a resposta do usuário
+        System.out.print("Digite a letra correspondente à sua resposta: ");
+        Scanner scanner = new Scanner(System.in);
+        String resposta = scanner.nextLine();
+
+        // Verificando a resposta do usuário
+        if (resposta.equalsIgnoreCase("c")) {
+            System.out.println("Resposta correta!");
+        } else {
+            System.out.println("Resposta incorreta!");
+
+        }
+    }
+}
