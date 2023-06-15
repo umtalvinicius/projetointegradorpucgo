@@ -1,0 +1,62 @@
+package mysql;
+
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import java.sql.Statement;
+import java.util.Scanner;
+
+public class SelectID {
+	
+String sql;
+{
+					
+String url1 = "jdbc:mysql://localhost:3308/questoes";
+String user = "root";
+String password = "";
+
+Scanner scanner = new Scanner(System.in);
+
+System.out.println("Você costaria de conferir as respostas?");
+String alternativa = scanner.nextLine();
+	
+sql = "SELECT resp1, resp2, resp3, resp4, resp5 FROM pacientes inner join questoes on respostas.id = quadro_questoes.id1 WHERE (id = '"+ id +"')";
+
+	try {
+	     Connection connection = DriverManager.getConnection(url1, user, password);
+	        	        
+	     Statement statment = connection.createStatement();
+	     ResultSet result = statment.executeQuery(sql);
+	     	     
+	    
+	        		
+	     while (result.next()) {
+	      	String id1 = result.getString(1);
+	       	String nome1 = result.getString(2);
+	       	String nascimento1 = result.getString(3);
+	       	String sexo1 = result.getString(4);
+	       	String endereco = result.getString(5);
+	       	String telefone = result.getString(6);
+	       	String comorb = result.getString(8);
+        	String saude = result.getString(9);
+	       	
+	     
+	       	System.out.println("As respostas para as perguntas são: Q1=" + correcao1 + "Q2=" + correcao2 + Q3=" + correcao3 + "Q4=" + correcao4 + Q5" + correcao5 +);
+	       	}
+	           	       
+    statment.close();
+    connection.close();
+    
+		}
+
+	catch (SQLException ex) {
+		System.out.println("An error occurred. Maybe user/password is invalid");
+		ex.printStackTrace(); 
+
+}
+
+		
+}
+
+}
